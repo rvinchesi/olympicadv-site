@@ -43,7 +43,7 @@ const quotes = [
 
 export default function TestimonialsPage() {
   return (
-    <article className="page copy">
+    <article className="page copy bio-parchment">
       <h1 className="page-title">Client &amp; Partner Testimonials</h1>
       {quotes.map((quote) => (
         <section className="quote" key={quote.name}>
