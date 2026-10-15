@@ -375,8 +375,6 @@ img {
 .client-col .client-note {
   margin: 10px 0 0;
   padding: 8px 14px 8px 16px;
-  height: calc(1.4em * 2 + 18px);
-  overflow: hidden;
   background: #f3e4c8;
   font-family: var(--font-cinzel), Cinzel, serif;
   font-size: 17px;
@@ -385,10 +383,13 @@ img {
 }
 
 .client-col .client-blurb {
+  min-height: calc(1.4em * 2 + 18px);
   color: var(--ink);
 }
 
 .client-col .client-note {
+  height: calc(1.4em * 2 + 18px);
+  overflow: hidden;
   color: var(--navy);
 }
 
@@ -423,6 +424,13 @@ img {
   max-height: 101px;
 }
 
+.logo-frame img.logo-boost[alt="TMPL8"] {
+  width: 144px;
+  max-width: 120%;
+  max-height: none;
+  height: auto;
+}
+
 .logo-frame span {
   font-family: var(--font-cinzel), Cinzel, serif;
   font-size: 13px;
@@ -435,10 +443,18 @@ img {
   font-size: clamp(32px, 4vw, 48px);
 }
 
-.page .role,
-.section-title {
+.page .role {
   margin: 8px 0 16px;
   color: var(--navy);
+  font-size: 22px;
+}
+
+.services .section-title {
+  display: block;
+  margin: 28px 0 16px;
+  padding: 10px 16px;
+  background: var(--navy);
+  color: #fff;
   font-size: 22px;
 }
 

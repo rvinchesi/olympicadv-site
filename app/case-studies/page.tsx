@@ -13,18 +13,19 @@ const ecommerceClients: Client[] = [
   {
     name: "FCP Euro",
     logo: "/images/fcp-euro.png",
-    description: "Leading eCommerce marketer of automotive aftermarket parts",
-    note: "$36 million Series A Preferred; $12 million Mezzanine Loan",
+    description: "Automotive Aftermarket Parts for European car enthusiasts",
+    note: "$36mm Preferred Stock; $12 mm mezzanine loan",
   },
   {
     name: "Earth Breeze",
     logo: "/images/earth-breeze.png",
     logoBoost: true,
-    description: "Pioneer of laundry detergent sheets",
+    description: "Eco-friendly laundry and household cleaning products",
   },
   {
     name: "TMPL8",
     logo: "/images/tmpl8.png",
+    logoBoost: true,
     description: "Hair longevity and wellness",
   },
 ];
@@ -33,24 +34,24 @@ const retailClients: Client[] = [
   {
     name: "Miss Jones Baking Co.",
     logo: "/images/miss-jones-baking.webp",
-    description: "Leading organic baking company",
+    description: "Organic baking mixes and frostings",
   },
   {
     name: "Vitruvi",
     logo: "/images/175_Vitruvi_logo.jpeg",
     logoFill: true,
-    description: "Innovator of premium Air Care products",
+    description: "Premium Air Care products",
   },
   {
     name: "Torie & Howard",
     logo: "/images/236_T_H_Logo.jpg",
-    description: "Premium brand of organic hard and chewy candy",
+    description: "Organic hard and chewy candy",
     note: "Acquired by American Licorice",
   },
   {
     name: "Dog Gone Smart",
     logo: "/images/221_D.GS.jpg",
-    description: "Global marketer of innovative pet products",
+    description: "Innovative pet products",
   },
 ];
 
@@ -64,32 +65,32 @@ const softwareClients: Client[] = [
     name: "CultureConnect",
     logo: "/images/culture-connect.png",
     logoFill: true,
-    description: "Leading museum patron engagement platform",
+    description: "Museum patron engagement platform",
     note: "Acquired by Axiell Group",
   },
   {
     name: "Data Garden",
     logo: "/images/238_Data_Garden_Logo.jpg",
-    description: "Large retailer consumer brand analytics",
+    description: "Retailer consumer brand analytics",
     note: "Acquired by SPINS",
   },
   {
     name: "ImmediateFX",
     logo: "/images/78_Picture1.jpg",
     logoFill: true,
-    description: "Enhanced Marketing Mix Modeling",
+    description: "Marketing Mix Modeling",
     note: "Acquired by Symphony Technology Group",
   },
   {
     name: "Aris Global",
     logo: "/images/275_Aris_Global_logo.jpg",
-    description: "Pharmacovigilance software provider to Pharma and Life Sciences",
+    description: "Pharmacovigilance software",
     note: "$20 million minority investment",
   },
   {
     name: "Digital ReLab",
     logo: "/images/100_Digital_ReLab.jpg",
-    description: "Intelligent digital asset management for content-rich organizations",
+    description: "Intelligent digital asset management",
   },
   {
     name: "LUMA Institute",
