@@ -136,7 +136,13 @@ img {
 
 .hero h1 {
   margin: 0 0 12px;
-  font-size: clamp(40px, 5vw, 62px);
+  font-size: clamp(22px, 6.4cqi, 52px);
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.hero-copy {
+  container-type: inline-size;
 }
 
 .roles {
@@ -145,7 +151,17 @@ img {
   font-size: 18px;
 }
 
-.hero blockquote,
+.hero blockquote {
+  margin: 0 0 18px;
+  padding-left: 16px;
+  border-left: 2px solid var(--gold-line);
+  font-family: var(--font-sans), "Source Sans 3", "Segoe UI", sans-serif;
+  font-size: clamp(20px, 2.4vw, 26px);
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--navy);
+}
+
 .close blockquote {
   margin: 0 0 18px;
   padding-left: 16px;
