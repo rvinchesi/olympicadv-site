@@ -139,6 +139,11 @@ img {
   font-size: clamp(40px, 5vw, 62px);
 }
 
+.hero h1 .name-space,
+.page-title .name-space {
+  margin-left: -0.1em;
+}
+
 .roles {
   margin: 0 0 22px;
   color: var(--navy);

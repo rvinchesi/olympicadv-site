@@ -40,7 +40,7 @@ export default function HomePage() {
         </figure>
         <div className="hero-copy">
           <p className="eyebrow">Santa Fe, New Mexico</p>
-          <h1>Richard A. Vinchesi</h1>
+          <h1>Richard A.<span className="name-space"> </span>Vinchesi</h1>
           <p className="roles">
             Founder &amp; CEO, Olympic Advisors
             <br />

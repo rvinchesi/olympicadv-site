@@ -5,7 +5,7 @@ export const metadata = { title: "Experience" };
 export default function ExperiencePage() {
   return (
       <article className="page copy bio-parchment">
-      <h1 className="page-title">Richard A. Vinchesi</h1>
+      <h1 className="page-title">Richard A.<span className="name-space"> </span>Vinchesi</h1>
       <img className="bio-photo" src="/images/378_Rich_Vinchesi.jpg" alt="Richard A. Vinchesi" />
       <div>
           <h2 className="role">CEO and Founder</h2>
