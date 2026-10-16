@@ -38,8 +38,7 @@ const retailClients: Client[] = [
   },
   {
     name: "Vitruvi",
-    logo: "/images/175_Vitruvi_logo.jpeg",
-    logoFill: true,
+    logo: "/images/vitruvi.png",
     description: "Premium Air Care products",
   },
   {
