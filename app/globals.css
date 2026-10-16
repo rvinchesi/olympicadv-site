@@ -402,6 +402,7 @@ img {
   overflow: hidden;
   background: var(--white);
   border-bottom: 1px solid var(--rule);
+  box-shadow: 3px 4px 5px rgba(28, 25, 21, 0.22);
 }
 
 .logo-frame img {
@@ -418,6 +419,11 @@ img {
 .logo-frame img.logo-fill {
   max-height: 68px;
   max-width: 78%;
+}
+
+.logo-frame img.logo-fill[alt="CultureConnect"] {
+  max-height: 82px;
+  max-width: 94%;
 }
 
 .logo-frame img.logo-boost {

@@ -26,7 +26,7 @@ export function SiteFrame({ children }: { children: React.ReactNode }) {
       <footer className="site-footer">
         <div>
           <p className="wordmark footer-mark">Olympic Advisors, Inc.</p>
-          <p>3201 Zafatano Drive, Suite C547 · Santa Fe, NM 87507</p>
+          <p>3201 Zafarano Drive, Suite C547 · Santa Fe, NM 87507</p>
         </div>
         <div>
           <p>

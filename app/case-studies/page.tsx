@@ -88,7 +88,7 @@ const softwareClients: Client[] = [
   },
   {
     name: "Digital ReLab",
-    logo: "/images/100_Digital_ReLab.jpg",
+    logo: "/images/digital-relab.png",
     description: "Intelligent digital asset management",
   },
   {
