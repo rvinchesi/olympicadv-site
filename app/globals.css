@@ -377,7 +377,7 @@ img {
   padding: 8px 14px 8px 16px;
   background: #f3e4c8;
   font-family: var(--font-sans), "Source Sans 3", "Segoe UI", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.4;
   border: 1px solid var(--gold-line);
 }
