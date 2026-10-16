@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
-import { Cinzel, Source_Sans_3 } from "next/font/google";
+import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { SiteFrame } from "@/components/SiteFrame";
-
-const cinzel = Cinzel({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-cinzel",
-});
 
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
@@ -26,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${cinzel.variable} ${sourceSans.variable}`}>
+    <html lang="en" className={sourceSans.variable}>
       <body>
         <SiteFrame>{children}</SiteFrame>
       </body>
