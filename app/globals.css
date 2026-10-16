@@ -497,6 +497,10 @@ body:has(.bio-parchment) .site-footer {
   box-shadow: 10px 10px 0 var(--gold-line);
 }
 
+.testimonials {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .quote {
   margin: 0 0 28px;
   padding-bottom: 8px;
